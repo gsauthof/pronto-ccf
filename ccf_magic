@@ -1,0 +1,6 @@
+# Exchange format for Philips Pronto universal infrared remote controls
+# A CCF file describes a learned/customized remote control,
+# i.e. it contains button UI and infrared pulse code definitions
+# (Georg Sauthoff)
+8	string	@\xa5Z@_CCF
+>32	string	CCF\x00		Philips Pronto IR remote control CCF
