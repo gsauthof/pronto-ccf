@@ -75,6 +75,7 @@ import sys
 #
 # - http://www.remotecentral.com/features/irdisp2.htm
 # - http://www.hifi-remote.com/infrared/IR-PWM.shtml
+# - https://github.com/stewartoallen/tonto/blob/master/doc/ccf-schema.txt
 
 
 def parse_args():

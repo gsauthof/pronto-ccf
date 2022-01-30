@@ -103,10 +103,11 @@ it refers to CCFTools/CCFDecompile which seem to have been
 windows-only tools, which I couldn't find online, anymore, as of
 2022.
 
-There was the 'tonto' project which looks like it supports some
-kind of CCF extraction feature. However, it's written in a kind
-of lasagna code style and its project page is also gone. Also,
-it's probably hard to get going since it's written in Java.
+There is the [tonto][8] project which looks like it supports some
+kind of CCF extraction feature. However, it's kind of hard to say
+just by looking at the code. It's probably hard to get going
+since it was written in Java, decades ago, since the Java
+ecosystem changed much.
 
 There is [IrScrutinizer][3] which is a Java GUI applications that
 supports importing/exporting into various IR code formats,
@@ -138,3 +139,4 @@ source libraries for decoding and transmitting IR codes, such as
 [5]: https://github.com/cyborg5/IRLib2
 [6]: https://github.com/Arduino-IRremote/Arduino-IRremote
 [7]: http://www.righto.com/2010/03/understanding-sony-ir-remote-codes-lirc.html
+[8]: https://github.com/stewartoallen/tonto
