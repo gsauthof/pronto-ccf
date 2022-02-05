@@ -81,7 +81,7 @@ import sys
 def parse_args():
     p = argparse.ArgumentParser(
             description='Dump raw infrared codes from Pronto CCF files')
-    p.add_argument('filename', metavar='FILENAME.CCF', nargs=1,
+    p.add_argument('filename', metavar='FILENAME.CCF',
             help='input Pronto CCF file')
     p.add_argument('--lirc', action='store_true',
             help=("Convert pulse widths to µs"
@@ -94,7 +94,6 @@ def parse_args():
     p.add_argument('--carrier', metavar='HZ', type=int, default=40000,
             help='expected carrier frequency used to search for IR code blocks. Common choices are 38 kHz and 40 kHz (default: %(default)s)')
     args = p.parse_args()
-    args.filename = args.filename[0]
     return args
 
 
